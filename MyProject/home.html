@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/fontawesome.min.css">
+    <link rel="icon" type="image/png" href="/images/gps_PNG63.png"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Bootstrap/bootstrap.min.css">
+     <title>Home</title>
+</head>
+<body>
+  <div class="home-bg">
+    <!--header section starts-->
+    <header class="header">
+
+      <section class="flex">
+
+        <a href="home.html" class="logo">TravelVista</a>
+
+        <nav class="navbar">
+         <a href="home.html">Home</a>
+         <a href="About.html">About</a>
+         <a href="Tours.html">Tours</a>
+         <a href="Destinations.html">Destinations</a>
+         <a href="Contact.html">Contact</a>
+
+        </nav>
+
+        <div id="menu-btn" class="fa-solid fa-bars"></div>
+      </section>
+    </header>
+    <!--header section ends-->
+
+    <!--home section starts-->
+ 
+    <div class="container home">
+       <section class="flex">
+            <form action="Destinations.html">
+              <h3>Search your tour</h3>
+              <p>Where to:</p>
+              <input type="text" name="location" required maxlength="50"
+              placeholder="Enter your location" class="box" id="box" autocomplete="off">
+               <input type="submit" onclick="showValue()" value="Search Location" name="search" id="btn">
+            </form>
+            </section>
+      </div>
+
+    <!--home section ends-->
+
+    <!--Footer section starts-->
+
+    <footer class="footer">
+      <div class="container ft">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Explore <div class="underline"><span></span></div> </h4>
+            <ul>
+              <li><a href="#">Destinations </a></li>
+              <li><a href="#">Vacation Packages</a></li>
+              <li><a href="#">Hotels & Resorts</a></li>
+              <li><a href="#">Activities & Experiences</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Connect <div class="underline"><span></span></div></h4>
+            <ul>
+              <li><a href="#">Join Our Newsletter</a></li>
+              <li><a href="#">Follow Us on Social Media</a></li>
+              <li><a href="#">Share Your Travel Photos</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Help<div class="underline"><span></span></div></h4>
+            <ul>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Follow Us <div class="underline"><span></span></div></h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/login" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+          <div class="credit">
+            &copy; copyright @ 2023 by <span>Jetmir Luli(Web Developer)</span> | all 
+            rights reserved!
+      
+             
+           </div>
+
+        </div>
+      </div>
+      
+    </footer>
+
+    <!--Footer section ends-->
+
+</div>
+
+  <script src="main.js"></script>
+  <script src="/Bootstrap/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
